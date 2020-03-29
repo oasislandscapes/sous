@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         SO: Expand Custom Fields and Notes Sections By Default
-// @version      0.2.1
+// @version      0.2.2
 // @namespace    https://github.com/oasislandscape/
 // @license	 MIT
 // @author       Drew <drew@oasislandscape.com>
