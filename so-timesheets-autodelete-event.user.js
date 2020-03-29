@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         SO: Timesheets: Auto click OK on delete event.
+// @name         SO: Timesheets - Auto click OK on delete event.
 // @namespace    https://github.com/oasislandscape/
-// @version      0.2.0
+// @version      0.2.1
 // @run-at	 document-idle
 // @description  Click the OK button when deleting an event to speed things up.
 // @author       Drew <drew@oasislandscape.com>
