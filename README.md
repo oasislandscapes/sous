@@ -15,14 +15,13 @@ Userscripts to make SO easier to use.
 	* UC Browser - install [Tampermonkey](https://tampermonkey.net/?ext=dhdg&browser=ucweb).
 
 2. Get information or install:
-	* Learn more about the userscript by clicking on the named link. You will be taken to the specific wiki page.
 	* Install a script directly from GitHub by clicking on the "install" link in the table below.
   
   
-	| Userscript                         |  Direct<br>Install | Created        | Updated    |
-	|----------------------------------------|:------------------:|:----------:|:----------:|
-	| Expand Custom Fields and Notes             | [install][exp-raw] | | 2019.12.xx | 2020.03.28 |
-	| Autoclick OK when deleting ts events       | [install][tsd-raw] | | 2019.12.xx | 2020.03.28 |
+	| Userscript                                 |  Direct<br>Install | Created        | Updated    |
+	|--------------------------------------------|:------------------:|:----------:|:----------:|
+	| Expand Custom Fields and Notes             | [install][exp-raw] | 2019.12.xx | 2020.03.28 |
+	| Autoclick OK when deleting ts events       | [install][tsd-raw] | 2019.12.xx | 2020.03.28 |
 
 [exp-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
 [tsd-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-timesheets-autodelete-event.user.js
