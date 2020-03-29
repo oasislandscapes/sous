@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         SO: On route planner, change <title> to date (bug: you must change days enable)
+// @name         SO: On route planner, change <title> to view multiple days at once in tabs.
 // @namespace    https://github.com/oasislandscape/
 // @version      0.2.0
 // @run-at	 document-idle
