@@ -30,8 +30,8 @@ Userscripts to make SO easier to use.
 	| Show total manhours on left in Calendar    | [install][tot-raw] | 2019.08.15 | 2020.03.28 |
 	
 [exp-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
-[tsd-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-enter-submits-timesheet-event.user.js
-[ent-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-timesheets-autodelete-event.user.js
+[ent-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-enter-submits-timesheet-event.user.js
+[tsd-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-timesheets-autodelete-event.user.js
 [esc-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-esc-closes-popups.user.js
 [arr-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-jobs-modify-header.user.js
 [myd-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-myday-show-printable-route.user.js
