@@ -16,6 +16,8 @@
 
 /* globals jQuery, $, waitForKeyElements */
 
+/* This has known bugs, and should probably be disabled for now. */
+
 function setStatus(warned, enabled) {
     GM.setValue("clickDeleteStatus", '{ "warned": ' + warned + ', "enabled": ' + enabled + ' }');
     console.log("clickDelete(): setStatus -> (" + warned + "," + enabled + ")");
