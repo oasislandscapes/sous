@@ -21,6 +21,8 @@ Userscripts to make SO easier to use.
   
 	| Userscript                         |  Direct<br>Install | Created        | Updated    |
 	|----------------------------------------|:------------------:|:----------:|:----------:|
-	| Expand Custom Fields and Notes       | [install][exp-raw] | | 2019.12.xx | 2020.03.28 |
+	| Expand Custom Fields and Notes             | [install][exp-raw] | | 2019.12.xx | 2020.03.28 |
+	| Autoclick OK when deleting ts events       | [install][tsd-raw] | | 2019.12.xx | 2020.03.28 |
 
 [exp-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
+[tsd-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-timesheets-autodelete-event.user.js
