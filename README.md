@@ -32,7 +32,7 @@ Userscripts to make SO easier to use.
 [exp-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
 [tsd-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-enter-submits-timesheet-event.user.js
 [ent-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-timesheets-autodelete-event.user.js
-[ent-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-esc-closes-popups.user.js
+[esc-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-esc-closes-popups.user.js
 [arr-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-jobs-modify-header.user.js
 [myd-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-myday-show-printable-route.user.js
 [tit-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-routeplanner-change-title-to-date.user.js
