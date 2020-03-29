@@ -2,7 +2,6 @@
 
 Userscripts to make SO easier to use.
 
-1. Make sure you have userscripts enab
 
 ## Installation
 
