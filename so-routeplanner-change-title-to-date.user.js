@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         SO: On route planner, change <title> to view multiple days at once in tabs.
+// @name         SO: On route planner, change <title> to view multiple days at once in tabs. (bug: F5 to refresh)
 // @namespace    https://github.com/oasislandscape/
-// @version      0.2.0
+// @version      0.2.1
 // @run-at	 document-idle
 // @description  Changes the <title> field on Route Planner to be the date you're viewing (after refresh).
 // @author       Drew <drew@oasislandscape.com>
