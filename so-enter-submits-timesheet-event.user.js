@@ -2,7 +2,7 @@
 // @name         SO: Press [ENTER] to submit timesheet changes.
 // @namespace    https://github.com/oasislandscape/
 // @version      0.2.0
-// @run-at	 document-idle
+// @run-at	     document-idle
 // @description  This script saves and closes timesheets event edits when you press enter.
 // @author       Drew <drew@oasislandscape.com>
 // @include      /^https?://app\.singleops\.com//
