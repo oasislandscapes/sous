@@ -9,8 +9,8 @@
 // @include      /^https?://app\.singleops\.com//
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @updateURL    https://raw.githubusercontent.com/oasislandscape/sous/master/so-expand-collapsed-sections-by-default.user.js
-// @downloadURL  https://raw.githubusercontent.com/oasislandscape/sous/master/so-expand-collapsed-sections-by-default.user.js
+// @updateURL    https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
+// @downloadURL  https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
 // ==/UserScript==
 
 /* globals jQuery, $, waitForKeyElements */
