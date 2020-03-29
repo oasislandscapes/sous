@@ -10,8 +10,8 @@
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @grant        GM.getValue
 // @grant        GM.setValue
-// @updateURL    https://raw.githubusercontent.com/oasislandscape/sous/master/so-timesheets-autodelete-event.user.js
-// @downloadURL  https://raw.githubusercontent.com/oasislandscape/sous/master/so-timesheets-autodelete-event.user.js
+// @updateURL    https://raw.githubusercontent.com/oasislandscapes/sous/master/so-timesheets-autodelete-event.user.js
+// @downloadURL  https://raw.githubusercontent.com/oasislandscapes/sous/master/so-timesheets-autodelete-event.user.js
 // ==/UserScript==
 
 /* globals jQuery, $, waitForKeyElements */
