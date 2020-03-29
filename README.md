@@ -23,4 +23,4 @@ Userscripts to make SO easier to use.
 	|----------------------------------------|:------------------:|:----------:|:----------:|
 	| Expand Custom Fields and Notes       | [install][exp-raw] | | 2019.12.xx | 2020.03.28 |
 
-[exp-raw]: https://raw.githubusercontent.com/oasislandscape/sous/master/so-expand-collapsed-sections-by-default.user.js
+[exp-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
