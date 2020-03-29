@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         SO: On calendar, show total hours on left (bug: you must refresh with > and < )
+// @name         SO: On calendar, show total hours on left (bug: refresh with calendar change)
 // @namespace    https://github.com/oasislandscape/
-// @version      0.2.0
+// @version      0.2.1
 // @run-at	 document-idle
 // @description  This will sum up all of the combined hours for the visible crews and display them on the left side.
 // @author       Drew <drew@oasislandscape.com>
