@@ -28,6 +28,7 @@ Userscripts to make SO easier to use.
 	| Custom printable 'My Day' route sheets     | [install][myd-raw] | 2019.09.09 | 2020.03.28 |
 	| Change title on Route Planner to be Date   | [install][tit-raw] | 2019.08.15 | 2020.03.28 |
 	| Show total manhours on left in Calendar    | [install][tot-raw] | 2019.08.15 | 2020.03.28 |
+	| Add Service Buttons to Visits              | [install][srv-raw] | 2020.04.01 | 2020.04.01 |
 	
 [exp-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
 [ent-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-enter-submits-timesheet-event.user.js
@@ -37,3 +38,4 @@ Userscripts to make SO easier to use.
 [myd-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-myday-show-printable-route.user.js
 [tit-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-routeplanner-change-title-to-date.user.js
 [tot-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-total-hours-on-left.user.js
+[srv-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-add-service-buttons.user.js
