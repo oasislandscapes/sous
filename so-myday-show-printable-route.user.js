@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SO: Adjust 'My Day' page to support printable maintenence and enhancements route sheets.
 // @namespace    https://github.com/oasislandscape/
-// @version      0.2.0
+// @version      0.2.1
 // @run-at	 document-idle
 // @description  Change the My Day page into a format which can be printed with customization.
 // @author       Drew <drew@oasislandscape.com>
@@ -30,7 +30,7 @@ function showSummary(jNode, stop, message, expected, note_add_hour) {
 }
 
 function isEnhancementCrew() {
-    const people = ['Mike Goodall', 'Drew Day', 'Darlene'];
+    const people = ['Mike Goodall', 'Drew Day', 'Darlene', 'Enhancements Crew'];
 
     var any_person_is_enhancement_crew = false;
 
@@ -83,20 +83,10 @@ function processEstimatedTimes(jNode) {
     $("span#clock_out_button").hide();
 
 
-
-//     // if this is Mike Goodall's schedule, this is for the Enhancements crew, so rename the schedule.
-//     var person = $("h2:contains('Mike Goodall')");
-//     var is_enh_crew = (person.length == 1);
-//     var new_person = person.text().replace(/Mike Goodall/,"Enhancements Crew");
-//     person.text(new_person);
-
-
     var is_enh_crew = isEnhancementCrew();
 
 
     // this is inelegant, but we need to know the totals before we decide what to do on each stop
-
-
     var total_minutes_for_day_pass1 = 0;
 
     stops.each( function (i) {
@@ -113,6 +103,7 @@ function processEstimatedTimes(jNode) {
         var visit_minutes_2man = visit_minutes / 2;
         var visit_minutes_3man = visit_minutes / 3;
 
+        if (!isNaN(visit_minutes) && !isEnhancementCrew()) visit_minutes = Math.round(visit_minutes * 1.0);
         if (!isNaN(visit_minutes)) total_minutes_for_day_pass1 += visit_minutes;
     });
 
@@ -144,8 +135,8 @@ function processEstimatedTimes(jNode) {
         // convert into total minutes; and offer 2 man and 3 man crew options
         var visit_minutes = (hours * 60) + minutes;
 
-        // inflate the numbers a little bit
-        visit_minutes = Math.round(visit_minutes * 1.1);
+        // adjust (inflate or deflate) the numbers a little bit
+        if (!isEnhancementCrew()) visit_minutes = Math.round(visit_minutes * 1.0);
 
         console.log(visit_minutes);
 
