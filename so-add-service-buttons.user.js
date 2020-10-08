@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SO: Add [BUTTONS] to Visits
 // @namespace    https://github.com/oasislandscape/
-// @version      0.1.3
+// @version      0.1.4
 // @run-at       document-idle
 // @description  This script adds buttons to add service visits and spring turn ons to Visits.
 // @author       Drew <drew@oasislandscape.com>
