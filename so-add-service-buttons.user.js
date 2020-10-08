@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         SO: Add [Service Visit] and [Spring Turn On] to Visits
+// @name         SO: Add [BUTTONS] to Visits
 // @namespace    https://github.com/oasislandscape/
-// @version      0.1.1
+// @version      0.1.3
 // @run-at       document-idle
 // @description  This script adds buttons to add service visits and spring turn ons to Visits.
 // @author       Drew <drew@oasislandscape.com>
@@ -19,12 +19,16 @@ function inside_button_group(buttons) {
 }
 function addIrrigationButton(jNode) {
     var client_id = $("html").find('a[href!="/clients/new"][href*="/clients/"]').attr('href').replace(/\/clients\/(\d+)/,'$1');
-
-    var service_visit_html = '<a class="btn-primary btn btn-sm col-xs-6 col-sm-4 col-sm-0" target="_new" href="/jobs/new?client_id=' + client_id + '&amp;template_id=306094&amp;visit_stage_id=4">+ Service Visit</a>';
-    var spring_turn_on_html = '<a class="btn-success btn btn-sm col-xs-6 col-sm-4 col-sm-0" target="_new" href="/jobs/new?client_id=' + client_id + '&amp;template_id=360631&amp;visit_stage_id=4">+ Spring Turn-On</a>';
+    var twoymp_visit_html = '<a class="btn-primary btn btn-sm col-xs-6 col-sm-4 col-sm-0" target="_new" href="/jobs/new?client_id=' + client_id + '&amp;template_id=1800990&amp;visit_stage_id=4">+ 2YMP</a>';
+    var ao_visit_html = '';
+    var chems_visit_html = '';
+    //var ao_visit_html = '<a class="btn-success btn btn-sm col-xs-6 col-sm-4 col-sm-0" target="_new" href="/jobs/new?client_id=' + client_id + '&amp;template_id=559422&amp;visit_stage_id=6">+ A&O</a>';
+    //var chems_visit_html = '<a class="btn-danger btn btn-sm col-xs-6 col-sm-4 col-sm-0" target="_new" href="/jobs/new?client_id=' + client_id + '&amp;template_id=1548434&amp;visit_stage_id=4">+ CHEM</a>';
+    var service_visit_html = '<a class="btn-primary btn btn-sm col-xs-6 col-sm-4 col-sm-0" target="_new" href="/jobs/new?client_id=' + client_id + '&amp;template_id=306094&amp;visit_stage_id=4">+ SVC</a>';
+    var sto_pp_html = '<a class="btn-success btn btn-sm col-xs-6 col-sm-4 col-sm-0" target="_new" href="/jobs/new?client_id=' + client_id + '&amp;template_id=1801036&amp;visit_stage_id=4">+ STO: PP</a>';
     var spacer = '&nbsp;&nbsp;';
 
-    var insertion = jNode.find('div').first().prepend(inside_button_group(service_visit_html + spring_turn_on_html + spacer));
+    var insertion = jNode.find('div').first().prepend(inside_button_group(twoymp_visit_html + ao_visit_html + chems_visit_html + sto_pp_html + service_visit_html + spacer));
 
 }
 waitForKeyElements("div.xs-no-float.col-xs-12.col-sm-0.pull-right.job-show-buttons", addIrrigationButton);
