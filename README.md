@@ -29,7 +29,7 @@ Userscripts to make SO easier to use.
 	| Change title on Route Planner to be Date   | [install][tit-raw] | 2019.08.15 | 2020.03.28 |
 	| Show total manhours on left in Calendar    | [install][tot-raw] | 2019.08.15 | 2020.03.28 |
 	| Add Service Buttons to Visits              | [install][srv-raw] | 2020.04.01 | 2020.04.01 |
-	| Remove UNSUBSCRIBE Button from Visits      | [install][uns-raw] | 2020.04.01 | 2020.04.01 |
+	| Remove UNSUBSCRIBE Button from Visits      | [install][uns-raw] | 2021.12.16 | 2021.12.16 |
 	
 [exp-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-expand-collapsed-sections-by-default.user.js
 [ent-raw]: https://raw.githubusercontent.com/oasislandscapes/sous/master/so-enter-submits-timesheet-event.user.js
